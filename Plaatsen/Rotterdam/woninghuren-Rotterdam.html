@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <body>
+ 
+  <title>MotoMundo</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+<style>
+<body>
+    
+   p{
+       
+       font-family: "Montserrat", sans-serif;
+color:antiquewhite;
+font-size: 16px;
+  left:40px;
+    padding: 30px;
+} 
+    
+     .center p {
+    margin: 0;
+   
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+      background-color: aliceblue ;
+    padding-top: 85px;
+    padding-left:20px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+     color: black;
+text-shadow: 2px 2px 4px #000000;
+   font-size: 16px;
+   
+}
+    
+     .center h1 {
+    margin: 0;
+  
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+      background-color: aliceblue ;
+    padding-top: 30px;
+    padding-left:20px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+     color:white;
+
+   font-size: 20px;
+   
+} 
+    
+    
+    .bg-1 { 
+  background: url("https://www.startershypotheekonline.nl/wp-content/uploads/2016/11/huis-kopen-buitenland.jpg")bottom,right;
+ background-size: cover;
+      color:#00c3ff;
+      padding-top: 0px;
+      padding-bottom: 530px;
+       text-shadow: 2px 2px 4px #000000;
+      Font-style: italic;
+      font-weight: bold;    
+  font-family: Helvetica, Arial, sans-serif; 
+      background-position: center top;
+  }
+    
+     .bg-2 { 
+  
+ background:url("http://cdn.wallpapersafari.com/5/35/0tGNKP.jpg") ; 
+       text-shadow: 2px 2px 4px #000000;
+      color: #00c3ff;
+      padding-top: 10px;
+      padding-bottom: 10px;
+       }
+    
+    
+   .bg-4 { 
+       background:url("https://i.ytimg.com/vi/cFZkUeo2ZGo/maxresdefault.jpg") no-repeat ; 
+  padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: #2f2f2f; 
+      color: #fff;
+      position: absolute;
+      top:3800px;
+     
+      left:0px;
+      width: 2000px;
+
+  } 
+    
+    
+
+.container {
+    position: relative;
+    color: antiquewhite;
+text-shadow: 2px 2px 4px #000000;
+   font-size: 23px;
+    
+     position: absolute;
+   
+    
+}
+
+
+body,h1{font-family: "Montserrat", sans-serif;
+ background:url("http://www.powerpointhintergrund.com/uploads/2017/05/background-sky---okahandja-municipality-31.jpeg") ; 
+ 
+    background-color: brown;
+      padding-bottom: 0px;
+}
+
+    h2{
+         padding-bottom: 5px; background:url("http://www.powerpointhintergrund.com/uploads/2017/05/background-sky---okahandja-municipality-31.jpeg") ;  
+        font-size: 21px;
+   border-radius: 5px; 
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+img { 
+margin-right:200px;
+      margin-bottom: 20px;
+    background:url("") no-repeat ;
+    background-repeat: no-repeat;
+     border-radius: 5px;
+     border-color: skyblue;
+}
+
+ 
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  
+  }
+  
+.navbar {
+ background-color: transparent;
+text-shadow: 2px 2px 4px #000000;
+box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+      margin-bottom: 0;
+     color: #00c3ff;
+      z-index: 9999;
+      border: 0;
+      font-size: 17px ;
+      line-height: 1.42857143;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+    text-align: left;
+     font-style:bolt;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: black;
+       font-style:bolt;
+     
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color:aqua !important;
+      background-color: transparent!important;
+     
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: black !important;
+      
+  }
+ 
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+    
+ }
+    
+   table {
+    border-collapse: collapse;
+    width: 50%;
+    
+   
+}
+
+    
+    .button {
+    background-color: transparent;
+    color: antiquewhite;
+text-shadow: 2px 2px 4px #000000;
+   font-style:bolt;
+    padding: 15px 34px;
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 16px;
+   border-radius: 5px; 
+    cursor: pointer;
+        border-color: skyblue;
+      
+    }
+   
+    </style></head>
+<!-- Navbar -->
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" tyle="align:center;">
+
+<nav class="navbar navbar-default navbar-fixed-top" s>
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                      
+      </button>
+      <a class="navbar-brand" href="#myPage"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-left">
+    <li><a href="index.html">HOME</a></li>
+            <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">PLAATS
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+              <li><a href="amsterdam.html">AMSTERDAM</a></li>
+        <li><a href="rotterdam.html">ROTTERDAM</a></li>
+          <li><a href="denhaag.html">DEN HAAG</a></li>
+             <li><a href="utrecht.html">UTRECHT</a></li>
+           <li><a href="eindhoven.html">EINDHOVEN</a></li>
+             <li><a href="breda.html">BREDA</a></li>
+             <li><a href="tillburg.html">TILBURG</a></li>
+             <li><a href="nijmegen.html">NIJMEGEN</a></li>
+          </ul>
+        <li><a href="overons.html">OVER ONS</a></li>
+    
+       
+       
+         
+      </ul>
+       
+       
+       <a href="http://nlwebinfo.ml/"> <img src="http://blog.flamingtext.com/blog/2017/06/11/flamingtext_com_1497207911_928761880.png" alt="NLWebInfo" class="image" style="box-shadow: 0 0px 0px 0 rgba(0,0,0,0.29),0 0px 0px 0 rgba(0,0,0,0.19);width:350px;height:50px;position:absolute;top:0px;right:-100px;shadow:0px;"></a>
+    
+        
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+
+  <h11></h11>
+ 
+</div>
+    
+    
+  <!-- Second Container -->
+
+<div class="container-fluid bg-2 text-center">
+  <h2 class="margin"></h2>
+ 
+  </div>
+
+  <!-- Images (Portfolio) -->
+  
+   <div class="center" style="width:1000px;height:0px;position:absolute;top:600px;left:20px;"> 
+      
+      <h2>
+          
+     Huurwoningen in Rotterdam<br><br>
+Voor huurwoningen Rotterdam kijkt u op huurwoningen.ga Rotterdam heeft ruim 600.000 inwoners en staat bekend om haar vernieuwende architectuur.<br>
+      De haven van Rotterdam is een grote werkgever in de regio Rotterdam. <br>
+      Dit is de grootste en belangrijkste haven van Rotterdam.<br>
+      Ook voor huurwoningen Maasvlakte kunt u bij huurwoningen.ga Rotterdam terecht!<br>
+      Huren Rotterdam kan bijvoorbeeld in Schiebroek, Spangen, Kralingen en Dijkzigt. U kunt appartement huren Rotterdam of huurhuis Rotterdam.<br> 
+      Ook voor kamers en studio’s kunt u bij ons terecht. Huurwoningen voor onbepaalde tijd of tijdelijk te huur, ongemeubileerd of gemeubileerd.<br> 
+      In de omgeving van Rotterdam vindt u ook huurwoningen, zoals in Schiedam, Vlaardingen en Ridderkerk.<br>
+      Het huidige aanbod van huurwoningen Rotterdam vindt u hieronder. 
+         
+          
+          
+      </h2>
+    </div>
+
+  
+  
+  <div class="center" style="width:1000px;height:0px;position:absolute;top:2400px;left:520px;">
+  <p>
+      
+    
+     
+      
+      
+    <br><br><br><br><br>
+      
+     
+      
+      Rotterdam Hillegersberg <br><br>
+
+    4-kamerappartement gelegen op toplocatie <br>
+     Aan de Cliviastraat te Rotterdam Hillegersberg! <br>
+      Het centrum is te bereiken in 10 minuten fietsen<br>
+      en in 20 minuten met het openbaar vervoer.<br>
+      
+  <img src="https://static.123wonen.nl/residences/2761/372169.jpg" alt="Ocean" class="topleft"style="width:280px;height:350px;position:absolute;top:100px;left:450px;"> 
+    <img src="https://static.123wonen.nl/residences/2761/372170.jpg" alt="Ocean" class="topleft"style="width:220px;height:170px;position:absolute;top:100px;left:750px;">   
+       <img src="https://static.123wonen.nl/residences/2761/372172.jpg" alt="Ocean" class="topleft"style="width:220px;height:170px;position:absolute;top:280px;left:750px;">
+      <a href="https://ds1.nl/c/?si=6581&li=1308381&wi=278230&ws=511euromo&dl=huurwoning%2Fappartement%2Frotterdam%2Fcliviastraat%2F2761"> 
+ <button class="button button2" style="width:250px;height:40px;position:absolute;top:400px;left:100px;">Lees Verder</button></a>
+       <br><br><br><br><br><br><br> <br><br><br> <br><br><br><br><br><br><br>
+      
+      
+   Rotterdam,
+Sionstraat<br><br>
+Prachtig appartement te huur in hartje Kralingen!<br>
+
+Deze woning is vorig jaar geheel gerenoveerd<br>
+      en is gelegen in een zijstraat<br>
+      van de gezellige Oudedijk. <br>
+      Door de grote ramen aan de voorzijde <br>
+      is de woonkamer zeer licht.<br>
+      
+  <img src="https://static.123wonen.nl/residences/2425/360475.jpg" alt="Ocean" class="topleft"style="width:280px;height:350px;position:absolute;top:650px;left:450px;"> 
+    <img src="https://static.123wonen.nl/residences/2425/360476.jpg" alt="Ocean" class="topleft"style="width:220px;height:170px;position:absolute;top:650px;left:750px;">   
+       <img src="https://static.123wonen.nl/residences/2425/360477.jpg" alt="Ocean" class="topleft"style="width:220px;height:170px;position:absolute;top:830px;left:750px;">
+      <a href="https://ds1.nl/c/?si=6581&li=1308381&wi=278230&ws=511euromo&dl=huurwoning%2Fappartement%2Frotterdam%2Fsionstraat%2F2425%23img-0"> 
+ <button class="button button2" style="width:250px;height:40px;position:absolute;top:960px;left:100px;">Lees Verder</button></a>
+       <br><br><br><br><br><br>       <br><br><br><br><br><br><br>
+    
+  Rotterdam, Pleinweg (nieuw) <br><br>
+Ruime kamer aan de Pleinweg in R'dam-Zuid!<br>
+Huurprijs: € 450 p/m<br>
+Max. huurperiode: 12 maand(en)<br>
+Type: Kamer<br>
+Slaapkamers: 1<br>
+Stoffering: Gestoffeerd<br>
+Woonoppervlakte: 20 m2<br>
+Beschikbaar vanaf: 1-7-2017<br>
+      
+  <img src="  http://static.123wonen.nl/residences/2764/372206_medium.jpg" alt="Ocean" class="topleft"style="width:280px;height:350px;position:absolute;top:1130px;left:450px;"> 
+    <img src="  http://static.123wonen.nl/residences/2764/372207_small.jpg" alt="Ocean" class="topleft"style="width:220px;height:170px;position:absolute;top:1130px;left:750px;">   
+       <img src="  http://static.123wonen.nl/residences/2764/372208_small.jpg" alt="Ocean" class="topleft"style="width:220px;height:170px;position:absolute;top:1310px;left:750px;">
+      <a href="https://ds1.nl/c/?si=6581&li=1308381&wi=278230&ws=&dl=huurwoning%2Fkamer%2Frotterdam%2Fpleinweg%2F2764"> 
+ <button class="button button2" style="width:250px;height:40px;position:absolute;top:1440px;left:100px;">Lees Verder</button></a>
+       <br><br><br><br><br><br>       <br><br><br><br><br><br><br>
+    
+    West-Varkenoordseweg in Rotterdam-zuid.<br><br>
+De woning is gestoffeerd, <br>
+voorzien van centrale verwarming,<br> 
+dubbelglas, moderne keuken,<br> 
+tuin en een schuur.<br>
+WHuurprijs: € 660 p/m<br>
+      
+  <img src=" http://www.woningzoek.nl/uploads/384541/thumb_tuin 3-1496408934.png" alt="Ocean" class="topleft"style="width:280px;height:350px;position:absolute;top:1650px;left:450px;"> 
+    <img src="http://www.woningzoek.nl/uploads/384541/thumb_tuin 1-1496408947.png" alt="Ocean" class="topleft"style="width:220px;height:170px;position:absolute;top:1650px;left:750px;">   
+       <img src="http://www.woningzoek.nl/uploads/384541/thumb_badkamer 2-1496408889.png" alt="Ocean" class="topleft"style="width:220px;height:170px;position:absolute;top:1830px;left:750px;">
+      <a href="http://www.woningzoek.nl/tt/?tt=607_12_279886_&r=%2Fhuurwoningen-Rotterdam%2FAppartement%2FWest-Varkenoordseweg--384541%2F"> 
+ <button class="button button2" style="width:250px;height:40px;position:absolute;top:1960px;left:100px;">Lees Verder</button></a>
+       <br><br><br><br><br><br>       <br><br><br><br><br> <br><br><br><br><br> <br><br><br>
+    
+  Teteringen, Grote Bogerd ,Noord Brabant<br><br>
+Luxery in Lifestyle!! All inclusive te Teteringen<br>
+Huurprijs € 895 p/m<br>
+Max. huurperiode: Onbepaalde tijd<br>
+Type: Eengezinswoning<br>
+Slaapkamers: 1<br>
+Stoffering: Gemeubileerd<br>
+Woonoppervlakte: 110 m2<br>
+Beschikbaar vanaf: 14-7-2017<br>
+      
+  <img src="  http://static.123wonen.nl/residences/2563/371324_medium.jpg" alt="Ocean" class="topleft"style="width:280px;height:350px;position:absolute;top:2180px;left:450px;"> 
+    <img src="  http://static.123wonen.nl/residences/2563/371325_small.jpg" alt="Ocean" class="topleft"style="width:220px;height:170px;position:absolute;top:2180px;left:750px;">   
+       <img src="  http://static.123wonen.nl/residences/2563/371326_small.jpg" alt="Ocean" class="topleft"style="width:220px;height:170px;position:absolute;top:2360px;left:750px;">
+      <a href="https://ds1.nl/c/?si=6581&li=1308381&wi=278230&ws=&dl=huurwoning%2Feengezinswoning%2Fteteringen%2Fgrote-bogerd%2F2563"> 
+ <button class="button button2" style="width:250px;height:40px;position:absolute;top:2490px;left:100px;">Lees Verder</button></a>
+       <br><br><br><br><br><br>       <br><br><br><br><br>
+    
+   
+
+        </p>
+      
+</div>
+ 
+<!-- End page content -->
+
+    
+   <!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Heb je vragen? We zouden graag van je horen. Mail ons op <br><a href="https://www.HDPeliculas.com">nlwebinfo@yahoo.com</a><br><br>Copyright © 2017. All Rights Reserved</p>
+      <a href="#" class="fa fa-facebook" style="width:50px;font-size:50px;background: #3B5998;
+  color: white;"></a>
+<a href="#" class="fa fa-twitter" style="font-size:50px; background: #55ACEE;
+  color: white;"></a>
+<a href="#" class="fa fa-google" style="font-size:50px; width:50px; background: #dd4b39;
+  color: white;"></a>
+<a href="#" class="fa fa-linkedin" style="font-size:50px;width:50px;  background: #007bb5;
+  color: white;"></a>
+<a href="#" class="fa fa-instagram" style="font-size:50px;width:50px; background: #125688;
+  color: white;"></a>
+
+
+
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-97399275-2', 'auto');
+  ga('send', 'pageview');
+ </script>
+</footer>
+
+</body>
+</html>
+
